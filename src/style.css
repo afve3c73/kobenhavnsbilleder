@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-family: "Blinker", sans-serif;
+    letter-spacing: -1.5px;
+  }
+
+  h2 {
+    letter-spacing: -0.5px;
+  }
+
+  h4 {
+    letter-spacing: 0.25px;
+  }
+  h2 h3,
+  h4 {
+    font-family: "Blinker", sans-serif;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+}
